@@ -1,0 +1,473 @@
+/* Reset default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f5f5f5;
+  padding: 20px;
+  display: flex;
+  text-align: center;
+}
+
+/* Resume container */
+.resume-container {
+  max-width: 100vw !important;
+  width: 100%;
+  margin: 0 auto;
+  background-color: white;
+  padding: 40px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Header section */
+.header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* Name styling */
+.name {
+  font-size: 36px;
+  font-weight: bold;
+  color: #2c3e50;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* Container styling */
+.circle-container {
+  display: flex;
+  align-items: center;
+  /* Vertically centers items */
+  justify-content: center;
+  /* Centers items horizontally */
+  gap: 15px;
+  /* Space between the circles and title */
+}
+
+/* Circle styling */
+.circle {
+  width: 20px;
+  /* Width of the circle */
+  height: 20px;
+  /* Height of the circle (same as width) */
+  background-color: rgb(123, 122, 122);
+  /* Circle color */
+  border-radius: 50%;
+  /* Makes the div circular */
+}
+
+/* Title styling */
+.title {
+  font-size: 18px;
+  /* Font size of the title */
+  font-weight: lighter;
+  /* Makes the title bold */
+  color: rgb(105, 104, 104);
+  /* Title color */
+}
+
+.sec1-button {
+  background-color: rgb(105, 104, 104);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+/* Container styling */
+.line-container {
+  display: flex;
+  align-items: center;
+  /* Center items vertically */
+  gap: 10px;
+  /* Space between lines and title */
+}
+
+/* Line styling */
+.line {
+  margin-top: 50px !important;
+  flex: 1;
+  /* Makes the lines flexible to fill space */
+  height: 2px;
+  /* Line thickness */
+  background-color: #555;
+  /* Line color */
+}
+
+/* Title styling */
+.prof-summary-title {
+  margin-top: 50px !important;
+  font-size: 18px;
+  /* Font size of the title */
+  font-weight: bold;
+  /* Bold title */
+  color: #333;
+  /* Title color */
+  text-align: center;
+  white-space: nowrap;
+  /* Prevents wrapping */
+}
+
+.prof-summaery-content {
+  padding: 15px;
+  background-color: #f9f9f9;
+  /* Optional: background color for the paragraph */
+  border-radius: 8px;
+  /* Optional: rounded corners */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  /* Optional: shadow for the paragraph */
+}
+
+.prof-summary-contentp {
+  font-size: 1em;
+  padding-top: 10px;
+  text-align: left;
+  line-height: 1.6;
+  color: #555;
+  /* Adjust text color */
+  margin: 2px;
+  /* Remove default margin from the paragraph */
+}
+
+.skills-container {
+  display: flex;
+  gap: 10px;
+  /* Optional: Adds space between columns */
+}
+
+.skills-r1 {
+  justify-content: left;
+  /* Distribute space between columns */
+}
+
+.skills-r1-col1 {
+  padding: 10px;
+  /* Optional: Adjust padding inside the columns */
+}
+
+.col-head {
+  color: #555;
+  font-size: medium;
+}
+
+.col-p {
+  color: #555;
+  font-size: medium;
+}
+
+.work-title {
+  margin-top: 50px !important;
+  font-size: 18px;
+  /* Font size of the title */
+  font-weight: bold;
+  /* Bold title */
+  color: #333;
+  /* Title color */
+  text-align: center;
+  white-space: nowrap;
+  /* Prevents wrapping */
+}
+
+.job-box {
+  margin-top: 20px;
+}
+
+.job-r1 {
+  display: flex;
+  justify-content: space-between;
+  gap: 100px !important;
+  margin-top: 10px;
+}
+
+.job-title {
+  color: #555;
+  font-size: medium;
+}
+
+.job-span {
+  color: #555;
+  font-size: 1rem;
+  text-align: right;
+}
+
+.jobcontent-list {
+  color: #555;
+  font-size: 1rem;
+  text-align: left;
+  padding-top: 5px;
+}
+
+.achievenments-title {
+  margin-top: 50px !important;
+  font-size: 18px;
+  /* Font size of the title */
+  font-weight: bold;
+  /* Bold title */
+  color: #333;
+  /* Title color */
+  text-align: center;
+  white-space: nowrap;
+  /* Prevents wrapping */
+}
+
+.achievenments-r1 {
+  display: flex;
+  justify-content: space-between;
+  gap: 100px !important;
+  margin-top: 10px;
+  color: #555 !important;
+}
+
+.achievenments-head1 {
+  color: #555;
+  font-size: medium;
+  text-align: left;
+}
+
+.achievenments-span {
+  color: #555;
+  font-size: 1rem;
+  text-align: right;
+}
+
+.achievenments-content1 {
+  color: #555 !important;
+  font-size: 1rem;
+  text-align: left;
+  padding-top: 5px;
+}
+
+.achievenments-r2 {
+  display: flex;
+  justify-content: space-between;
+  gap: 100px !important;
+  margin-top: 10px;
+  color: #555 !important;
+}
+
+.achievenments-r3 {
+  display: flex;
+  justify-content: space-between;
+  gap: 100px !important;
+  margin-top: 10px;
+  color: #555 !important;
+}
+
+.projects-title {
+  margin-top: 50px !important;
+  font-size: 18px;
+  /* Font size of the title */
+  font-weight: bold;
+  /* Bold title */
+  color: #333;
+  /* Title color */
+  text-align: center;
+  white-space: nowrap;
+  /* Prevents wrapping */
+}
+
+.projects-r1 {
+  display: flex;
+  justify-content: space-between;
+  gap: 100px !important;
+  margin-top: 10px;
+  color: #555 !important;
+}
+
+.projects-r2 {
+  display: flex;
+  justify-content: space-between;
+  gap: 100px !important;
+  margin-top: 10px;
+  color: #555 !important;
+}
+
+.projects-r3 {
+  display: flex;
+  justify-content: space-between;
+  gap: 100px !important;
+  margin-top: 10px;
+  color: #555 !important;
+}
+
+.projects-head {
+  color: #555;
+  font-size: medium;
+  text-align: left;
+}
+
+.projects-span {
+  color: #555;
+  font-size: 1rem;
+  text-align: right;
+}
+
+.projects-content {
+  color: #555 !important;
+  font-size: 1rem;
+  text-align: left;
+  padding-top: 5px;
+}
+
+.education-title {
+  margin-top: 50px !important;
+  font-size: 18px;
+  /* Font size of the title */
+  font-weight: bold;
+  /* Bold title */
+  color: #333;
+  /* Title color */
+  text-align: center;
+  white-space: nowrap;
+  /* Prevents wrapping */
+}
+
+.education-r1 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.education-heading {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.education-r1 .eduaction-head1 {
+  margin-right: 10px;
+  margin-bottom: 0;
+  font-size: medium;
+}
+
+.education-r1 .education-head2 {
+  margin-right: 20px;
+  margin-bottom: 0;
+  color: #555;
+}
+
+.education-span {
+  margin-left: auto;
+  margin-right: 0;
+  color: #555;
+}
+
+.education-r1 > div:last-of-type {
+  width: 100%;
+  margin-top: 5px;
+  color: #555;
+  text-align: left;
+}
+
+.education-r2 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.education-heading {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.education-r2 .eduaction-head1 {
+  margin-right: 10px;
+  font-size: medium;
+  margin-bottom: 0;
+}
+
+.education-r2 .education-head2 {
+  margin-right: 20px;
+  margin-bottom: 0;
+  color: #555;
+}
+
+.education-span {
+  margin-left: auto;
+  margin-right: 0;
+}
+
+.education-r2 > div:last-of-type {
+  width: 100%;
+  margin-top: 5px;
+  text-align: left;
+  color: #555;
+}
+
+.education-r2 {
+  margin-top: 15px;
+}
+
+.professional_development-title {
+  margin-top: 50px !important;
+  font-size: 18px;
+  /* Font size of the title */
+  font-weight: bold;
+  /* Bold title */
+  color: #333;
+  /* Title color */
+  text-align: center;
+  white-space: nowrap;
+  /* Prevents wrapping */
+}
+
+.professional_development-r1 {
+  display: flex;
+  justify-content: space-between;
+  gap: 100px !important;
+  margin-top: 10px;
+}
+
+.professional_development-r2 {
+  display: flex;
+  justify-content: space-between;
+  gap: 100px !important;
+  margin-top: 10px;
+}
+
+.professional_development-head {
+  font-size: medium;
+  text-align: left;
+}
+
+.professional_development-span {
+  color: #555;
+  font-size: 1rem;
+  text-align: right;
+}
+
+.professional_development-content {
+  color: #555 !important;
+  font-size: 1rem;
+  text-align: left;
+  padding-top: 5px;
+}
+
+button {
+  display: block;
+  margin: 20px auto;
+  padding: 8px 15px;
+  font-size: 19px;
+  background-color: #555;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #555;
+}
